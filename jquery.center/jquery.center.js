@@ -2,7 +2,7 @@
  * jQuery Center Plugin 
  * Copyright (c) 2011 Josué CAU
  * Version: 1.00 (2011-05-16)
- * Requires: jQuery v1.3.2 or later
+ * Requires: jQuery
  */
 (function( $ ){
 
