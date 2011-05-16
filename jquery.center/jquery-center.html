@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>jquery center</title>
+	<meta charset="utf-8"/> 
+	<style>
+	
+	#center { width: 300px; height: 200px; background:#EEE; border: 1px solid #CCC; }
+	
+	</style>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script src="jquery.center.min.js"></script>
+	<script>
+	
+	$(document).ready(function(){
+	
+		$('#center').click(function(){
+			$(this).center();
+		});
+	});
+	</script>
+</head>
+<body>
+
+	<div id="center">CLICK ME</div>
+
+</body>
+</html>
