@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery FirstLast Plugin test</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script src="jquery.firstlast.min.js"></script>
+<script>
+
+$(document).ready(function() {
+	
+	$('#enable-button').click(function() {
+		// customize classes name :
+		var params = {};
+		params.first = 'fl-first';
+		params.last = 'fl-last';
+		$('#test').firstlast(params);
+	});
+	
+	$('#disable-button').click(function() {
+		// remove classes :
+		$('#test').firstlast('disable');
+	});
+	
+});
+
+</script>
+
+<style>
+.fl-first { border: 1px solid #F60; }
+.fl-last { border: 1px solid #36F; }
+</style>
+
+</head>
+
+<body>
+
+<button id="enable-button">Enable</button>
+<button id="disable-button">Disable</button>
+
+<span class="fl-first">First</span> <span class="fl-last">Last</span> 
+
+<div id="test">
+	<ul id="list">
+		<li>Item 1
+			<p>bla bla bla</p>
+			<ul>
+				<li>Item 1-1
+					<ul>
+						<li>Item 1-1-1</li>
+						<li>Item 1-1-2</li>
+						<li>
+							<p>bla bla bla</p>
+						</li>
+					</ul>
+				</li>
+				<li>Item 1-2</li>
+				<li>Item 1-3</li>
+			</ul>
+		</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+		<li>Item 6</li>
+		<li>Item 7</li>
+		<li>Item 8</li>
+	</ul>
+	<ul>
+		<li>Single item of another list</li>
+	</ul>
+	<p>This is a first paragraph.</p>
+	<p>This is a paragraph.</p>
+	<p>This is a last paragraph.</p>
+	
+</div><!-- /#test -->
+
+</body>
+</html>
