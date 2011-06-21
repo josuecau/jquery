@@ -1,38 +1,1 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>jQuery Wrapper Plugin Test</title>
-<style>
-	#container {}
-	.element {}
-</style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<script src="jquery.wrapper.js"></script>
-<script>
-$(document).ready(function(e) {
-	$('#container .element').wrapper({
-		wrapperCount : 5,
-		wrapperElement : 'div'	
-	});
-});
-</script>
-</head>
-
-<body>
-
-	<div id="container">
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-		<div class="element">scdecfzefvezfe</div>
-	</div>
-	
-</body>
-</html>
+<!DOCTYPE HTML><html><head><meta charset="UTF-8"><title>jQuery Wrapper Plugin Test</title><style>	.wrapper { padding:5px; border:1px solid #CCC; background:#EFEFEF; margin:10px; }	.element { padding:#FFF; border:1px dotted #666; margin:5px; }</style><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script><script src="jquery.wrapper.js"></script><script>$(document).ready(function(e) {	$('#container .element').wrapper({		wrapperCount : 3	});});</script></head><body>	<div id="container">		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>	</div>	</body></html>
