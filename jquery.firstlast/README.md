@@ -1,5 +1,5 @@
 #	FirstLast jQuery Plugin
-Copyright (c) 2011 Josué CAU
+Copyright (c) 2011 Josu√© CAU
 Version: 1.00 (2011-06-12)
 
 ##	Description
