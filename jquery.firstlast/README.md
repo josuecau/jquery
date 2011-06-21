@@ -1,5 +1,5 @@
 #	FirstLast jQuery Plugin
-Copyright (c) 2011 Josu√© CAU
+Copyright (c) 2011 Josué CAU
 Version: 1.00 (2011-06-12)
 
 ##	Description
@@ -13,8 +13,9 @@ $('element').firstlast();
 ##	Params
 An object with 2 properties :
 <ul>
-<li><code>first</code> : class name for first-child of each group</li>
-<li><code>last</code> : class name for last-child of each group</li>
+<li><code>first</code> : class name for first-child of each group (default: "first")</li>
+<li><code>last</code> : class name for last-child of each group (default:
+"last")</li>
 </ul>
 
 ##	Methods
