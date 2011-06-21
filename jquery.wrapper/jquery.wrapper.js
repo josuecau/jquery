@@ -31,6 +31,7 @@
 	};
 	$.fn.wrapper.defaults = {
 		wrapperElement : 'div',
-		wrapperCount : 2
+		wrapperCount : 3,
+		wrapperClass : 'wrapper'
 	};
 })(jQuery);
