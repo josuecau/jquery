@@ -1,5 +1,5 @@
 #	Wrapper jQuery Plugin
-Copyright (c) 2011 Josué CAU <me@josuecau.com>
+Copyright (c) 2011 Josué CAU <josuecau@yahoo.fr>
 Version: 1.00 (2011-06-21)
 
 ##	Description
