@@ -1,5 +1,5 @@
 #	FirstLast jQuery Plugin
-Copyright (c) 2011 Josué CAU
+Copyright (c) 2011 - Josué CAU <josuecau@yahoo.fr>
 Version: 1.00 (2011-06-12)
 
 ##	Description
@@ -22,4 +22,4 @@ An object with 2 properties :
 <code>disable</code> : Remove all added classes.
 
 ##	Examples
-See test.html file.
+See [test.html](https://github.com/josuecau/jquery/blob/master/jquery.firstlast/test.html) file.
