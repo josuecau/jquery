@@ -1,1 +1,51 @@
-<!DOCTYPE HTML><html><head><meta charset="UTF-8"><title>jQuery Wrapper Plugin Test</title><style>	.wrapper { padding:5px; border:1px solid #CCC; background:#EFEFEF; margin:10px; }	.element { padding:#FFF; border:1px dotted #666; margin:5px; }</style><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script><script src="jquery.wrapper.js"></script><script>$(document).ready(function(e) {	$('#container .element').wrapper({		wrapperCount : 3	});});</script></head><body>	<div id="container">		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>		<div class="element">scdecfzefvezfe</div>	</div>	</body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Wrapper Plugin Test</title>
+<style>
+	.my-custom-wrapper { padding:5px; border:1px solid #CCC; background:#EFEFEF; margin:10px; }
+	.element { background:#FFF; padding:3px; border:1px dotted #666; margin:5px; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script src="jquery.wrapper.min.js"></script>
+<script>
+$(document).ready(function(e) {
+	$('#container').find('.element').wrapper({
+		wrapperCount : 3,
+		wrapperClass: 'my-custom-wrapper'
+	});
+});
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+		<p class="element">Lorem Ipsum Dolor Sit Amet</p>
+	</div>
+	
+</body>
+</html>

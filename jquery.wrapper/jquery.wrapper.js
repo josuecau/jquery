@@ -2,7 +2,7 @@
  * jQuery Wrapper Plugin 
  * Copyright (c) 2011 Josué CAU
  * Version: 1.00 (2011-06-21)
- * Requires: jQuery
+ * Requires: jQuery 1.2
  */
 (function ($) {
 	var opts;
@@ -13,11 +13,11 @@
 			var count = $this.length;
 			for (var i = 0; i < count; i += opts.wrapperCount)
 			{
-				$this.filter(':eq('+i+'),:lt('+(i+opts.wrapperCount)+'):gt('+i+')').wrapAll($('<'+opts.wrapperElement+'/>').addClass('wrapper'));
+				$this.filter(':eq('+i+'),:lt('+(i+opts.wrapperCount)+'):gt('+i+')').wrapAll($('<'+opts.wrapperElement+'/>').addClass(opts.wrapperClass));
 			}
 		},
 		disable: function () {
-			
+			//
 		}
 	};
 	$.fn.wrapper = function (method) {
