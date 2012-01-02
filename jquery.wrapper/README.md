@@ -26,4 +26,4 @@ $('#container').find('.elementsToWrap').wrapper({
 </ul>
 
 ##	Examples
-See test.html file.
+See [test.html file](https://github.com/josuecau/jquery/blob/master/jquery.wrapper/test.html) for example.
